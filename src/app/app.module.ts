@@ -14,12 +14,14 @@ import {
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./header/header.component";
 import { PostListComponent } from "./posts/post-list/post-list.component";
+import { EuropeMapComponentComponent } from "./charts/europe-map-component/europe-map-component.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PostListComponent
+    PostListComponent,
+    EuropeMapComponentComponent
   ],
   imports: [
     BrowserModule,
